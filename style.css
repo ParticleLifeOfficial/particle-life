@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 20px 26px;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
